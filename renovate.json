@@ -1,8 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base", ":switchToGradleLite"
+    "config:base", ":switchToGradleLite", "group:all"
   ],
-  "prHourlyLimit": 0,
-  "groupName": "all"
+  "prHourlyLimit": 0
 }
